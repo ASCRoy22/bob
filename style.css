@@ -1,0 +1,90 @@
+body{
+    margin:0px;
+    
+}
+#top_banner{
+    
+    display:flex;
+   justify-content:space-around;
+   
+      
+}
+#top_banner a{
+    color:white;
+    background-color: black;
+    padding: 9px;
+   width:150%;
+    text-align: center;
+    font-weight: bold;
+    font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
+    align-content: center;
+    text-decoration: none;
+    font-size:12px;
+}
+.text1:hover{/* the whole div block is in effect */
+    background-color: aqua;  
+    text-decoration: underline;
+
+}
+#mid_banner{
+    display:flex;
+    justify-content: flex-end
+}
+#mid_banner a:hover{ /* you can only border when you hover on only the hypherlink text portion*/
+    background-color: aqua; /**/
+    text-decoration:none;
+
+
+}
+#mid_banner a{
+    text-decoration:none;
+}
+.text3{
+    margin:1px;
+    padding:5px;
+    color:gray;
+   
+
+}
+
+#navbar  {
+    background-color:white;
+    display:flex;
+    
+    justify-content:center;
+    
+}
+#navbar img{
+    justify-content:flex-end;
+    padding:0px;
+    
+}
+.text2{
+    justify-content: space-around;
+    justify-items: center;
+    align-self: center;
+   
+    
+}
+#navbar a{
+    
+    padding-top: 10px;
+    padding:15px;
+
+}
+#logo{
+    
+    padding:15px;
+}
+#button{
+    flex-direction: row-reverse;
+    justify-items: flex-end;
+}
+#stripelife{
+    position: fixed;
+    right: 0px;
+
+}
+
+
+
